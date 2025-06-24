@@ -706,9 +706,6 @@ img {
     fill: var(--cloud);
     stroke: var(--cloud);
 }
-.footer-form {
-    width: 100%;
-}
 .footer-text-subscribe {
     font-weight: 500;
     font-size: 16px;
@@ -815,16 +812,12 @@ input::placeholder {
         padding-right: 15px;
         padding-left: 15px;
     }
-    .container-container {
-    }
     .container-footer {
         margin-bottom: 0;
     }
     .container-footer-list {
         margin-right: 120px;
         padding-left: 0;
-    }
-    .footer-text {
     }
     .container-social {
         margin-right: 80px;
