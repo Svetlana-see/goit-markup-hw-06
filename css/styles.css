@@ -629,6 +629,9 @@ img {
     padding-right: 16px;
     padding-left: 16px;
 } 
+.container-container {
+    margin-bottom: 72px;
+}
 .container-footer {
     display: flex;
     flex-direction: column;
@@ -771,6 +774,7 @@ input::placeholder {
     }
     .container-container {
         display: flex;
+        margin-bottom: 0;
     }
     .container-footer {
         align-items: flex-start;
@@ -805,7 +809,6 @@ input::placeholder {
     .footer {
         background: var(--navy);
         padding: 100px 0;
-        max-width: 1440px;
     }
     .footer-container {
         display: flex;
